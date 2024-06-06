@@ -1,0 +1,155 @@
+/* General Dashboard Styling */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  
+  align-items: center;
+}
+
+.dashboard-header h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.drawer-button{
+  order: 0;/* Add margin to create space between h1 and drawer button */
+  cursor: pointer;
+}
+
+.header-decoration {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 20px;
+  height: 2px;
+  background-color: white; /* Adjust color as needed */
+  margin: 0 5px;
+}
+
+.search-bar {
+  margin-top: 3px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  margin-left: 600px;
+}
+
+.search-bar input {
+  padding: 0.7rem;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.search-bar button {
+  padding: 0.5rem;
+  margin-left: 10px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard-content {
+  display: flex;
+  flex: 1;
+}
+
+.dashboard-nav {
+  background-color: #111010;
+  width: 250px;
+}
+
+.dashboard-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #ddd;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.dashboard-nav li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-nav li:last-child {
+  border-bottom: none;
+}
+
+.dashboard-main {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #c55e09, #ffe1f322 90%);
+}
+
+.patient-dashboard {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+ 
+}
+
+/* Add this CSS to your Medical.css file */
+.char-image {
+  animation: bounce 1s infinite alternate;
+  display: block; /* Ensure the image is displayed as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+  width: 100%; /* Ensure the image doesn't exceed its container's width */
+  height: 800%; /* Ensure the image doesn't exceed its container's height */
+  width: 400px; /* Set the width of the image */
+  height: 400px; /* Maintain the aspect ratio */
+}
+.greeting-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+.logged-as {
+  margin-top: 0;
+}
+
+.dashboard-overview {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  background-color: antiquewhite;
+}
+
+.overview-item {
+  background-color: #ddd;
+  padding: 0.5rem;
+  width: calc(33.333% - 10px);
+  margin-right: 10px;
+}

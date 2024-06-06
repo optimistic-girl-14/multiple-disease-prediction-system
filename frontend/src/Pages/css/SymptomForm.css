@@ -1,0 +1,57 @@
+/* SymptomForm.css */
+.symptom-container {
+  width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color:black;
+  background-image: url('./use.webp');
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  height: 400px;
+}
+
+.symptom {
+  width: calc(20% - 20px); /* Adjust the width as needed */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+select {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Add space before the button */
+.symptom-container button {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #c55e09;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 400px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 20px;
+}

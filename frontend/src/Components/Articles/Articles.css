@@ -1,0 +1,48 @@
+.medical-information {
+    display: flex;
+    flex-wrap: wrap; /* Allow containers to wrap */
+    justify-content: center; /* Center the container horizontally */
+    padding: 20px;
+    background: linear-gradient(180deg, #c55e09, #ffe1f322 90%);
+  }
+  
+  .medical-info-container {
+    display: flex;
+    align-items: center;
+    max-width: 800px; /* Adjust as needed */
+    margin-bottom: 20px; /* Add space between rows */
+  }
+  
+  .image-container {
+    flex: 0 0 40%; /* Adjust the width of the image */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    flex: 0 0 60%; /* Adjust the width of the content */
+    padding-left: 20px; /* Add space between the image and content */
+  }
+  
+  .info h2 {
+    margin-top: 0; /* Remove default margin for the heading */
+  }
+  
+  .info p {
+    margin: 0 0 10px; /* Add some space between paragraphs */
+  }
+  
+  .author,
+  .date,
+  .by {
+    margin: 5px 0; /* Add space between the author, date, and "By" */
+  }
+  
+  .learn-more {
+    display: block; /* Make the link block-level for easier styling */
+    margin-top: 10px; /* Add space between content and the link */
+  }
+  

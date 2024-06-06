@@ -1,0 +1,66 @@
+.UserProfile-container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color:black;
+   background-image: url('./use.webp');
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+}
+  
+  .UserProfile-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .UserProfile-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .UserProfile-container label {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .UserProfile-container input[type='text'],
+  .UserProfile-container input[type='date'],
+  .UserProfile-container input[type='number'],
+  .UserProfile-container select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  
+  .UserProfile-container button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #c55e09;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 400px;
+  }
+  
+  .UserProfile-container button[type='submit']:hover {
+    background: linear-gradient(180deg, #c55e09, #ffe1f322 90%);
+  }
+  
+  /* Custom styling for the select dropdown arrow */
+  .UserProfile-container select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+  }
+  
+  .UserProfile-container select::-ms-expand {
+    display: none;
+  }
+  
